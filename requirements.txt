@@ -1,3 +1,7 @@
+pip>=25.2
+setuptools>=68.0.0
+wheel>=0.41.2
+
 asgiref==3.7.2
 async-timeout==4.0.3
 backports.zoneinfo;python_version<"3.9"
@@ -15,7 +19,7 @@ gunicorn==21.2.0
 drf-yasg==1.21.7
 idna==3.6
 packaging==23.2
-pillow==10.2.0
+pillow>=10.3.0     # ✅ 10.3.0 yoki 11.0.0 ishlaydi
 psycopg2==2.9.9
 PyJWT==2.8.0
 pytz==2023.3.post1
